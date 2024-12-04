@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const markerLink = document.getElementById("marker-link");
     const markerLinkInapp = document.getElementById("marker-link-inapp");
-    const markerImgURL = require("./images/marker.png").default;
+    const markerImgURL = require("./images/GRAPH_EQUATION.png").default;
     markerLink.setAttribute("href", markerImgURL);
     markerLinkInapp.setAttribute("href", markerImgURL);
 
