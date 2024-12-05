@@ -9,12 +9,12 @@ import './styles/vr.css';
 document.addEventListener('DOMContentLoaded', () => {
     const markerEl = document.getElementById("marker");
 
-    const markerUrl = require('./images/pattern-marker.patt').default
+    const markerUrl = require('./images/pattern-GRAPH EQUATION.patt').default
     markerEl.setAttribute('url', markerUrl)
 
     const markerLink = document.getElementById("marker-link");
     const markerLinkInapp = document.getElementById("marker-link-inapp");
-    const markerImgURL = require("./images/GRAPH_EQUATION.png").default;
+    const markerImgURL = require("./images/pattern-GRAPH EQUATION.png").default;
     markerLink.setAttribute("href", markerImgURL);
     markerLinkInapp.setAttribute("href", markerImgURL);
 
